@@ -234,6 +234,7 @@ padding: 40px;
   color: #FFFFFF;
   text-align: center;
   padding-top: 120px;
+  margin-bottom: 40px;
 }
 .featured-card{
   margin-right: 30px;
@@ -241,6 +242,7 @@ padding: 40px;
 background: rgba(53, 17, 101, 0.4);
 padding: 40px;
 }
+
 .featured-card-container{
   width: 1200px;
   margin: 0 50px ;
@@ -249,7 +251,7 @@ padding: 40px;
   justify-content: center;
 }
 .video-description h1{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
   color: #FFFFFF;
   margin-top: 24px;
@@ -309,10 +311,11 @@ padding: 40px;
 }
 
 .social {
+  display: flex;
     cursor: pointer;
     margin-top: 16px;
     justify-content: flex-start;
-    margin-right: 300px;
+    gap: 8px;
   }
 
 .footer-container{
@@ -384,6 +387,11 @@ padding: 40px;
  }
  .host-description h1,.host-descriptionp{
   text-align: center;
+ }
+ .footer-container{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+
  }
 }
 
