@@ -262,11 +262,12 @@ padding: 40px;
   color: #FFFFFF;
   margin-top: 12px;
 }
-   .video-description,.time{
+ .time{
     font-size: 1rem;
     font-weight: 600;
     color: #00FF88;
-   }
+    }
+  
  .host-meeting {
     width: 100%;
     background-color: #1A0B2E;
