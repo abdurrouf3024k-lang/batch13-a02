@@ -160,3 +160,66 @@ border-radius: 10000px;
   margin-top: 16px;
   margin-bottom: 94px;
 }
+.why-choose-us{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.grid-container{
+  width: 71%;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+.why-choose-us h1{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-top: 200px;
+}
+.card-1{
+  grid-row: span 2;
+   border-radius: 40px;
+background: rgba(53, 17, 101, 0.4);
+padding: 40px;
+}
+.card-2{
+  grid-column: span 2;
+   border-radius: 40px;
+   background: rgba(53, 17, 101, 0.4);
+   padding: 40px;
+}
+.card-3{
+  grid-column: span 2;
+   border-radius: 40px;
+background: rgba(53, 17, 101, 0.4);
+padding: 40px;
+}
+.card-4{
+  grid-column: span 2;
+   border-radius: 40px;
+background: rgba(53, 17, 101, 0.4);
+padding: 40px;
+}
+.card-5{
+   border-radius: 40px;
+background: rgba(53, 17, 101, 0.4);
+padding: 40px;
+}
+.grid-heading{
+  font-size: 1.5rem;
+  font-weight: 24px;
+  color: #FFFFFF;
+  /* margin-left: 10px; */
+}
+.grid-description{
+  font-size: 1rem;
+   font-weight: 400;
+   color: #FFFFFF;
+}
